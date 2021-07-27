@@ -1,0 +1,68 @@
+/*Tablet device  */
+@media screen and (min-width: 688px) and (max-width: 992px) {
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .top-section {
+        grid-template-columns: 1fr;
+        margin-left: 20%;
+    }
+
+    .font-style{
+        font-size: 30px;
+    }
+
+    .top-img {
+        width: 80%;
+        margin: 4em 0 1em;
+    }
+
+    .players-blog{
+        margin-top: 30px;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+}
+
+/* Small device  */
+@media screen and (max-width: 688px) {
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+
+
+    .font-style{
+        font-size: 25px;
+    }
+    .top-section {
+        grid-template-columns: 1fr;
+    }
+
+    
+    .font-style{
+        font-size: 29px;
+    }
+
+
+
+    .players-blog{
+
+        margin-top: 30px;
+        grid-template-columns:1fr;
+    }
+
+    .login-blog{
+        grid-template-columns:1fr;
+        margin-left: auto;
+       
+       
+    }
+    
+}
