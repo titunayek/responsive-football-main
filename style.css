@@ -134,32 +134,3 @@ th {
     padding-right: 15px;
 }
 
-/* midra queries */
-/* mobile devices */
-
-@media only screen and (max- width:688px) {
-    .container{
-        width: 100%;
-    }
-    .top-section{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .players-blog{
-        display: none;
-        flex-direction: column;
-        grid-template-columns: repeat(1, 1fr);
-       
-   
-    }
-    
-    main{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .container, .login-blog{
-        display: none;
-    }
-    .login-blog{
-        margin-top: 50px;
-    }
-}
